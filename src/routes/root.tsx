@@ -6,11 +6,11 @@ import ScrollToTopButton from '../components/ScrollToTopButton';
 export default function Root() {
   return (
     <>
+      <Header />
       <main
         id="main"
-        className="min-h-screen w-full flex flex-col items-center"
+        className="relative min-h-screen w-full mx-auto max-w-6xl flex flex-col items-center"
       >
-        <Header />
         <Outlet />
         <ScrollToTopButton />
       </main>
